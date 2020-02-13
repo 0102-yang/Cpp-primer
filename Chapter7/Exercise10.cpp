@@ -12,8 +12,7 @@ double add(double, double);
 
 int main()
 {
-    double q = calculate(10, 20, add);
-    cout << q << endl;
+    cout << calculate(10, 20, add) << endl;
 
     system("pause");
     return 0;
